@@ -19,7 +19,7 @@ formas.forEach(f =>{
     if(f.forma === 'retangulo'){
         area = f.altura * f.largura;
     }
-    if(f.forma ==='triangulo'){
+    if(f.forma==='triangulo'){
         area = f.altura * f.largura /f.altura
     }
 
