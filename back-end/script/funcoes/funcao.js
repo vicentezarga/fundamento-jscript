@@ -19,3 +19,7 @@ console.log('floor ' + Math.floor(5.2));
 
 //Desconsidera valores decimais
 console.log('truc ' + Math.trunc(5.2));
+
+//Expressão de função ou função anônima
+const soma = function(s1,s2){return s1+s2}
+console.log(soma(1,2));
